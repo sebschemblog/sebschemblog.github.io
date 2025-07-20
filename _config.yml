@@ -15,11 +15,20 @@ github_username: "sebschemblog"
 #youtube_username: username
 #googleplus_username: +username
 
+
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "merlot"
 
+nav:
+  - title: "Home"
+    url: /
+  - title: "About Me"
+    url: /about/
+  - title: "Archive"
+    url: /archive/
+    
 rss: rss
 
 kramdown:
