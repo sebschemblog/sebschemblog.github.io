@@ -12,11 +12,6 @@ title: Blog Archive
 - [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%b %Y" }})
 {% endfor %}
 
-## Conferences
-{% for post in site.categories.Conferences %}
-- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%b %Y" }})
-{% endfor %}
-
 ## Travel
 {% for post in site.categories.Travel %}
 - [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%b %Y" }})
