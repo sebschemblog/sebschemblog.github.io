@@ -65,7 +65,7 @@ header h1 {
   opacity: 0.3;
 }
   
-@media screen 
+@media screen {
     .site-nav {
         position:absolute;
         top: 9px;
